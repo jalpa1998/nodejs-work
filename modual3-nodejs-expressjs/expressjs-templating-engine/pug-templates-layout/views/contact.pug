@@ -1,0 +1,32 @@
+
+doctype html
+html 
+ head 
+  title="contact us"
+  block styles
+    link(rel="stylesheet" type="text/css" href="/css/style.css")
+body 
+//-include a header 
+include ./header.pug 
+include ./navbar.pug  
+div.content 
+ div.left 
+  h3 contact us page
+  img(src="../images/contact.png", alt="contact", srcset="")
+ div.right  
+  h3 Contact us Form
+  p just load a contact us page
+  div.form-group 
+   input(type="text", name="name" placeholder="Enter Name *" required)
+  div.form-group 
+   input(type="email", name="email" placeholder="Enter Email *")
+  div.form-group 
+   input(type="text", name="phone" placeholder="Enter Phone *")
+  div.form-group 
+   input(type="text", name="phone" placeholder="Enter Subject *")
+  div.form-group 
+   input(type="text", name="phone" placeholder="Enter Message *")
+  div.form-group 
+   input(type="submit", value="Send")
+
+include ./footer.pug
