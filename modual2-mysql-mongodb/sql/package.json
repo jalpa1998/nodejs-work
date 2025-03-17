@@ -1,0 +1,20 @@
+{
+  "name": "mysqlapp",
+  "version": "1.0.0",
+  "description": "mysqlapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "mysqlapp",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "mysql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.9"
+  }
+}
