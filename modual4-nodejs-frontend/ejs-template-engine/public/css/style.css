@@ -1,0 +1,24 @@
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray !important;
+}
+
+.app 
+{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.box1,.box2 
+{
+    width: auto;
+    height: auto;
+    margin: 15px;
+}

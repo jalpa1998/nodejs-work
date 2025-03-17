@@ -1,0 +1,20 @@
+
+doctype html
+html 
+ head 
+  title="just a basics layout loading using pug templates engine"
+  block styles
+    link(rel="stylesheet" type="text/css" href="/css/style.css")
+body 
+//-include a header 
+include ./header.pug 
+include ./navbar.pug  
+div.content 
+ div.left 
+  h3 This is Left
+ div.right  
+  h3 This is right
+  p hey i am just testing our content
+  b This is a bold tag in pug engine
+
+include ./footer.pug
