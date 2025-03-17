@@ -1,0 +1,13 @@
+
+{
+    "employee":[
+        {
+            "id":"1001",
+            "name":"brijesh",
+            "age":"35",
+            "department":"IT",
+            "company":"Tops technology"
+
+        }
+    ]
+}
